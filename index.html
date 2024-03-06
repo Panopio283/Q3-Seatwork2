@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SW2</title>
+    <title>Seatwork2</title>
     <style>
 
     	body {
-    		background-image: url('https://i.pinimg.com/564x/23/4f/40/234f40f3e480d05f084879826b9d246b.jpg');
+    		background-image: url('https://i.pinimg.com/564x/a5/df/1b/a5df1b7dca7f748d655e611d68a3a376.jpg');
     		background-size: cover;
             background-position: bottom right;
             background-repeat: no-repeat;
@@ -26,17 +26,17 @@
         
         .grid-item {
    			background-color: #FFD1E6;
-    		border: thick solid #976E80;
-   			display: flex;
+            border: thick solid #A34C73;
+            display: flex;
     		flex-direction: column;
     		justify-content: center;
     		align-items: center;
     		text-align: center;
+            margin: 30px;
     		}
 
         img {
         	padding: 8px;
-        	border: thick dashed #A34C73;
         }
 
         h1 {
@@ -85,7 +85,7 @@
         <div class="grid-item">
         	<img src="https://i.pinimg.com/736x/fa/d6/c9/fad6c95f973dbe11351f048fce04a5d9.jpg" height="370" width="330">
         	<h1>Character</h1>
-        	<h2>A Turkist Angora kitten who loves to sass</h2>
+        	<h2>A Turkish Angora kitten who loves to sass</h2>
         </div>
         <div class="grid-item">
         	<h1>Information</h1>
@@ -105,12 +105,84 @@
         	<h2>Princess Tiana's very kind and generous best friend</h2>
         </div>
         <div class="grid-item">
-        	<p>𝓛𝓸𝓽𝓽𝓲𝓮 𝓯𝓸𝓻𝓶 𝓟𝓻𝓲𝓷𝓬𝓮𝓼𝓼 𝓪𝓷𝓭 𝓽𝓱𝓮 𝓕𝓻𝓸𝓰</p>
+        	<p>𝓛𝓸𝓽𝓽𝓲𝓮 𝓯𝓻𝓸𝓶 𝓟𝓻𝓲𝓷𝓬𝓮𝓼𝓼 𝓪𝓷𝓭 𝓽𝓱𝓮 𝓕𝓻𝓸𝓰</p>
         </div>
     </div>
 
     <center><h3>loved these characters and want to browse more? Sign in and find more interesting characters here!</h3></center>
 
-  <center><h4><a href="https://panopio283.github.io/something/">Sign up here for free!</a></h4></center>
+  <style>
+    .container {
+        background-color: #F7C1D0;
+        padding: 13px;
+        border: solid 3px brown;
+        }
+
+    img {
+        height: 500px;
+        width: 400px;
+        margin: 10px;
+        border: 2px solid brown;
+        padding: 3px;
+        }
+
+    h2 {
+        color: #C4134E;
+        }
+
+    h3 {
+        color: brown;
+        }
+
+    h4 {
+        color: #C4134E;
+        }
+
+    .bigger-button {
+        margin-top: 30px;
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        padding: 10px 20px;
+        }
+</style>
+
+<body>
+    <div class="container mt-3">
+        <h2>Sign In To Find More Awesome Characters!</h2>
+        <form>
+
+        <div class="row email mb-3">
+            <label for="inputEmail" class="col-sm-2">Email</label>
+            <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="row password mb-3">
+            <label for="inputPassword" class="col-sm-2">Password</label>
+            <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+        </div>
+
+        <div class="row remember mb-3">
+            <div class="offset-sm-2">
+                <div class="form-check col-sm-10">
+                <input class="form-check-input" type="checkbox" id="checkRemember">
+                <label class="form-check-label" for="checkRemember">Remember me</label>
+                </div>
+            </div>
+
+        <div class="row button mb-3">
+            <div class="offset-sm-2">
+                <div class="col-sm-10">
+                <button type="submit" class="btn btn-danger">Sign in</button>
+                </div>
+            </div>
+        </div>
+
+        </form>
+    </div>
 </body>
 </html>
